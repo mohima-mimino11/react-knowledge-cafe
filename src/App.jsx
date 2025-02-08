@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
      <Header></Header>
-     <div className='md:flex px-[320px] mt-8'>
+     <div className='md:flex  mt-8'>
        <Blogs></Blogs>
        <Bookmarks></Bookmarks>
      </div>
