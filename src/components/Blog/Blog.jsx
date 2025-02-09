@@ -17,7 +17,7 @@ const Blog = ({blog, handleBookmarkButton}) => {
       </div>
       <div >
           <span className="text-gray-500 text-xl font-medium">{reading_time} min read</span>
-          <button className="ml-2 text-red-500" ><FaBookmark onClick={handleBookmarkButton}></FaBookmark></button>
+          <button className="ml-2 text-red-500" ><FaBookmark onClick={() => handleBookmarkButton(blog)}></FaBookmark></button>
       </div>
 
       </div>
